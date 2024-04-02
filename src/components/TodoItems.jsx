@@ -7,8 +7,8 @@ const TodoItems = ({ todo, handleDeleteTodo, handleUpdateTodo }) => {
   return (
     <div className="container px-0">
       {/* Container for a single todo item */}
-      <div className="row d-flex justify-content-center mb-4">
-        <div className="col-7 border shadow-sm rounded-1 p-3">
+      <div className="row px-3 d-flex justify-content-center mb-4">
+        <div className="col-lg-7 border shadow-sm rounded-1 p-3">
           {/* Main content of the todo item */}
           <div>
             {/* Displaying the todo title */}

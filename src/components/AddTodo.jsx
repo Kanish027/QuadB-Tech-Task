@@ -43,8 +43,8 @@ const AddTodo = () => {
   // JSX rendering of the AddTodo component
   return (
     <div className="container">
-      <div className="row d-flex justify-content-center my-5">
-        <div className="col-7 border shadow-sm rounded-1 p-4">
+      <div className="row px-3 d-flex justify-content-center my-5">
+        <div className="col-lg-7 border shadow-sm rounded-1 p-4">
           <h1 className="fw-bold text-center">Add Todo</h1>
           {/* Form for adding a new todo */}
           <form onSubmit={handleAddTodo}>
